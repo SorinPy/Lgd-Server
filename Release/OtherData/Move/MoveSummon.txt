@@ -1,0 +1,41 @@
+// Arquivo:	MoveSummon.txt
+// Atualizado:	21:41 09/02/2020
+// Descrição: 	Esse arquivo configura as opções da skill Move Summon do DL, e contém as seguintes colunas:
+//
+// 	[Seção 0]
+//
+//		- Mapa			Mapa que irá ser configurado as opções;
+//		- X			Posição inicial X;
+//		- Y			Posição inicial Y;
+//		- TX			Posição final X;
+//		- TY			Posição final Y;
+//		- MinLevel		Level mínimo para mover o alvo;
+//		- MaxLevel		Level máximo para mover o alvo;
+//		- MinReset		Mínimo de resets para mover o alvo;
+//		- MaxReset		Máximo de resets para mover o alvo;
+//		- AccountLevel		Nível VIP, 0 para todas;
+//		- PK			Permite mover PK ou não, 0~1;		
+//
+//		Map		X		Y		TX		TY		MinLevel	MaxLevel	MinReset	MaxReset	AccountLevel	PK
+		0		1		1		255		255		1		400		*		*		0		1
+		1		1		1		255		255		1		400		*		*		0		1
+		2		1		1		255		255		1		400		*		*		0		1
+		3		1		1		255		255		1		400		*		*		0		1
+		4		1		1		255		255		1		400		*		*		0		1
+		6		1		1		255		255		1		400		*		*		0		1
+		7		1		1		255		255		1		400		*		*		0		1
+		8		1		1		255		255		1		400		*		*		0		1
+		10		1		1		255		255		1		400		*		*		0		1
+		30		1		1		255		255		1		400		*		*		0		1
+		33		1		1		255		255		1		400		*		*		0		1
+		34		1		1		255		255		1		400		*		*		0		1
+		37		1		1		255		255		1		400		*		*		0		1
+		38		1		1		255		255		1		400		*		*		0		1
+		41		1		1		255		255		1		400		*		*		0		1
+		42		1		1		255		255		1		400		*		*		0		1
+		51		1		1		255		255		1		400		*		*		0		1
+		56		1		1		255		255		1		400		*		*		0		1
+		57		1		1		255		255		1		400		*		*		0		1
+		80		1		1		255		255		1		400		*		*		0		1
+		81		1		1		255		255		1		400		*		*		0		1	
+end

@@ -1,0 +1,9 @@
+// Arquivo:	Filter.txt
+// Atualizado:	13:47 24/02/2020
+// Descrição: 	Esse arquivo configura o bloqueio de nomes ou palavras do chat no servidor.
+//
+//		- Texto 	Texto que será bloqueado;
+//
+//	Texto
+//	"webzen"
+end

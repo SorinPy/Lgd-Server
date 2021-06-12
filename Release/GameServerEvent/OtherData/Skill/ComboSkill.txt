@@ -1,0 +1,44 @@
+//	Stage	Skill	Delay		Comment
+	0	19	3000		// [DK] Falling Slash
+	0	20	3000		// [DK] Lunge
+	0	21	3000		// [DK] Uppercut
+	0	22	3000		// [DK] Cyclone
+	0	23	3000		// [DK] Slash
+	1	41	3000		// [DK] Twisting Slash
+	1	42	3000		// [DK] Rageful Blow
+	1	43	3000		// [DK] Death Stab
+	1	232	3000		// [DK] Frozen Stab
+	1	344	3000		// [DK] Blood Storm
+
+	0	10	3000		// [DW] Hell Fire
+	0	12	3000		// [DW] Aqua Beam
+	0	13	3000		// [DW] Blast
+	0	14	3000		// [DW] Inferno
+	1	38	3000		// [DW] Decay
+	1	39	3000		// [DW] Ice Storm
+	1	40	3000		// [DW] Nova
+
+	0	24	3000		// [FE] Triple Shot
+	1	52	3000		// [FE] Penetration
+	1	235	3000		// [FE] Five Shot
+
+	0	55	3000		// [MG] Fire Slash
+	0	56	3000		// [MG] Power Slash
+	0	57	3000		// [MG] Spiral Slash
+	1	73	3000		// [MG] Mana Rays
+	1	236	3000		// [MG] Sword Slash
+	1	237	3000		// [MG] Gigantic Storm
+
+	0	61	3000		// [DL] Fire Brust
+	0	66	3000		// [DL] Eletric Spark
+	1	78	3000		// [DL] Fire Scream
+	1	238	3000		// [DL] Birds
+	1	62	3000		// [DL] Earth Quake
+
+	0	214	3000		// [SU] Drain Life
+	1	215	3000		// [SU] Chain Lightning
+	1	223	3000		// [SU] Sahamutt
+	1	224	3000		// [SU] Neil
+	1	225	3000		// [SU] Ghost Phanton
+	1	230	3000		// [SU] Red Storm
+end

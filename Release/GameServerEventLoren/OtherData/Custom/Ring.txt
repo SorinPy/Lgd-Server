@@ -1,0 +1,12 @@
+// Arquivo:	Ring.txt
+// Atualizado:	23:04 29/08/2018
+// Descrição: 	Configurar os anéis customs, ele contém as seguintes colunas:
+//
+//	- Id		Index do anel custom nesse arquivo, acumulativo 0~63;
+//	- Categoria	Categoria do anel, 0~15;
+//	- Index		ID do anel custom;
+//	- Skin		Skin do anel custom, cuidado com skins inválidas!
+//
+//
+//	Id	Categoria	Index	Skin
+end

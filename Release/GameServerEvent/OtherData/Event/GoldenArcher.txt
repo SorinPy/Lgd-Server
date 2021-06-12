@@ -1,0 +1,34 @@
+// Arquivo:	GoldenArcherEvent.txt (Lorencia Golden Archer)
+// Atualizado:	00:01 27/04/2019
+// Descrição: 	Esse arquivo configura o sistema do Golden Archer (Renas) de Lorencia,
+//		se não houver nenhum item registrado, as renas serão registradas sem nenhum prêmio.
+//		Se um jogador atingir o último prêmio, as renas serão somente registradas no NPC.
+//
+//		- Quantidade		Número de renas para obter o item;
+//		- Tipo			Categoria do item, 0~15
+//		- Index			Index do item, 0~15;
+//		- Level			Level do item, 0~15;
+//		- Durabilidade		Durabilidade do item, 0 (automático) ~ 255;
+//		- Skill			Skill, 0~1;
+//		- Luck			Luck, 0~1;
+//		- Adicional		Adicional, 0~7;
+//		- Excelente		Excelente, 0~63;
+//		- Anciente		ID do anciente, (Ver SetItemOption.txt);
+//		- Fogos			Fogos ao criar item, 0~1;
+//
+// 	Quantidade	Tipo		Index		Level		Durabilidade	Skill		Luck		Adicional	Excelente	Anciente	Fogos
+	1		14		13		0		0		0		0		0		0		0		1		// Jewel of Bless
+	2		14		14		0		0		0		0		0		0		0		1		// Jewel of Bless
+	3		12		15		0		0		0		0		0		0		0		1		// Jewel of Chaos
+	4		14		16		0		0		0		0		0		0		0		1		// Jewel of Life
+	5		14		22		0		0		0		0		0		0		0		1		// Jewel of Creation
+	10		13		0		0		0		0		0		0		0		0		1		// Guardian Angel
+	11		13		1		0		0		0		0		0		0		0		1		// Imp
+	12		13		64		0		0		0		0		0		0		0		1		// Demon
+	13		13		65		0		0		0		0		0		0		0		1		// Spirit of Guardian
+	20		14		11		8		0		0		0		0		0		0		1		// Box of Kundun +1
+	30		14		11		9		0		0		0		0		0		0		1		// Box of Kundun +2
+	40		14		11		10		0		0		0		0		0		0		1		// Box of Kundun +3
+	50		14		11		11		0		0		0		0		0		0		1		// Box of Kundun +4
+	60		14		11		12		0		0		0		0		0		0		1		// Box of Kundun +5
+end

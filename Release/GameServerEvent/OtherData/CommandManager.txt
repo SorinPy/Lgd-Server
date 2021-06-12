@@ -1,0 +1,90 @@
+// Arquivo:	CommandManager.txt
+// Atualizado:	20:32 13/02/2021
+// Descrição: 	Esse arquivo configura o sistema de comandos, ele contém as seguintes seções:
+//
+// 	[Seção 0]
+//		- Id		ID do comando, não alterar;
+//		- String	Nome do comando;
+//		- Ativo 	Ativa ou desativa o comando, 0~1;
+//		- Zen		Zen requerido para o comando, 0~2000000000;
+//		- Level		Level requerido para o comando, 0~400;
+//		- VIP		VIP requerido, veja o sistema de VIP para o id correto;
+//		- Reset		Resets requeridos para o comando;
+//		- MasterReset	Master Resets requeridos para o comando;
+//		- GM		Nível de Aceso do GameMaster;
+//		- Delay		Delay em segundos para utilizar o comando, 0~31536000;
+//		- WCoinC	Pontos WCoinC requeridos, 0~99999999;
+//		- WCoinP	Pontos WCoinP requeridos, 0~99999999;
+//		- GPoint	Pontos Globin requeridos, 0~99999999;
+//		- Item		Index do item requerido para usar o comando (* para desativar);
+//		- Count		Quantidade de items requeridos para usar o comando (Se houver item especificado);
+//		- Level		Level do item requerido 0~15 (Se houver item especificado);
+//
+//	Id	String		Ativo	Zen		Level	VIP	Reset	MReset	GM	Delay	WCoinC 	WCoinP	GPoint	Item	Count	Level	Descrição
+//
+	0	move		1	0		0	0	0	0	0	0	0	0	0	*	0	0	// move <mapa> 		- Move para o mapa
+	1	post		1	100000		50	0	0	0	0	0	0	0	0	*	0	0	// post <mensagem> 	- Envia um post
+	2	str		1	100000		10	0	0	0	0	0	0	0	0	*	0	0	// str <pontos|auto> 	- Adiciona pontos em força
+	3	agi		1	100000		10	0	0	0	0	0	0	0	0	*	0	0	// dex <pontos|auto> 	- Adiciona pontos em agilidade
+	4	vit		1	100000		10	0	0	0	0	0	0	0	0	*	0	0	// vit <pontos|auto> 	- Adiciona pontos em vitalidade
+	5	ene		1	100000		10	0	0	0	0	0	0	0	0	*	0	0	// ene <pontos|auto> 	- Adiciona pontos em energia
+	6	cmd		1	100000		10	0	0	0	0	0	0	0	0	*	0	0	// cmd <pontos|auto> 	- Adiciona pontos em comando
+	7	evo		1	100000		220	0	0	0	0	0	0	0	0	*	0	0	// evo			- Evolui o personagem
+	8	zen		1	0		0	0	0	0	0	0	0	0	0	*	0	0	// zen <0~2000000000> 	- Alterar Zen		
+	9	pkclear		1	100000		10	0	0	0	0	0	0	0	0	*	0	0	// pkclear		- Limpar o status PK
+	10	fireworks	1	100000		10	0	0	0	0	30	0	0	0	*	0	0	// fireworks		- Solte fogos de artifício
+	11	war		1	100000		0	0	0	0	0	0	0	0	0	*	0	0	// war <guild>		- Declare guerra
+	12	soccer		1	100000		0	0	0	0	0	0	0	0	0	*	0	0	// soccer <guild>	- Declare guerra em battle soccer
+	13	request		1	100000		0	0	0	0	0	0	0	0	0	*	0	0	// request <on|off|auto>- Ativa ou desativa requisicoes de party ou trade
+	14	reset		1	0		0	0	0	0	0	0	0	0	0	*	0	0	// reset [auto] 	- Resetar personagem (Ver Reset Manager)
+	15	mreset		1	0		0	0	0	0	0	0	0	0	0	*	0	0	// mreset		- Faz o Master reset do personagem (Ver Reset Manager)
+	16	ware		1	100000		10	0	0	0	0	0	0	0	0	*	0	0	// ware <0~5>		- Alterar baú
+	17	store		1	100000		10	0	0	0	0	0	0	0	0	*	0	0	// store <bless|soul|chaos|wcc|wcp|wcg> - Personal shop com moeda custom
+	18	offstore	1	100000		10	0	0	0	0	0	0	0	0	*	0	0	// offstore		- Ficar offline com Shop pesosal aberto
+	19	online		1	100000		0	0	0	0	0	0	0	0	0	*	0	0	// online		- Ver Estado do servidor e usuarios online
+	20	attack		1	100000		10	0	0	0	0	0	0	0	0	*	0	0	// attack 		- Inicia o ataque automatico
+	21	offattack	1	100000		10	0	0	0	0	0	0	0	0	*	0	0	// offattack 		- Inicia o attack automatico (Modo offline)
+	22	rstr		1	100000		0	0	0	0	0	0	0	0	0	*	0	0	// rstr <pontos>	- Remove pontos de força
+	23	ragi		1	100000		0	0	0	0	0	0	0	0	0	*	0	0	// rdex <pontos>	- Remove pontos de agilidade
+	24	rvit		1	100000		0	0	0	0	0	0	0	0	0	*	0	0	// rvit <pontos>	- Remove pontos de vitalidade
+	25	rene		1	100000		0	0	0	0	0	0	0	0	0	*	0	0	// rene <pontos>	- Remove pontos de energia
+	26	rcmd		1	100000		0	0	0	0	0	0	0	0	0	*	0	0	// rcmd <pontos>	- Remove pontos de comando
+	27	class		1	100000		400	0	0	0	0	0	0	0	0	*	0	0	// class <gm|bm|he|dm|le|ds> - Alterar classe do personagem
+	28	ping		1	100000		0	0	0	0	0	0	0	0	0	*	0	0	// ping 		- Mostra o ping atual com o GameServer
+	29	kalima		1	100000		0	0	0	0	0	0	0	0	0	*	0	0	// kalima <1~7>		- Invoca o portão para kalima
+
+	30	skin		1	0		0	0	0	0	8	0	0	0	0	*	0	0	// skin <nome> <id>	- Altera a skin do alvo
+	31	level		1	0		0	0	0	0	8	0	0	0	0	*	0	0	// level <nome> <level>	- Altera o level do alvo
+	32	dc		1	0		0	0	0	0	8	0	0	0	0	*	0	0	// dc <nome>		- Desconectar o jogador
+	33	ban		1	0		0	0	0	0	8	0	0	0	0	*	0	0	// ban <nome>		- Bloquear a conta do jogador
+	34	clearinven	1	0		0	0	0	0	8	0	0	0	0	*	0	0	// clearinven 		- Limpa todo o inventario
+	35	drop		1	0		0	0	0	0	8	0	0	0	0	*	0	0	// drop <type> <id> <lvl> <skill> <luck> <add> <exc> <anc> <min> - Criar o item especificado
+	36	item		1	0		0	0	0	0	8	0	0	0	0	*	0	0	// item <type> <id> <lvl> <skill> <luck> <add> <exc> <anc> <min> - Dropar o item especificado
+	37	gpost		1	0		0	0	0	0	8	0	0	0	0	*	0	0	// gpost <mensagem>	- Enviar uma mensagem global		
+	38	hide		1	0		0	0	0	0	8	0	0	0	0	*	0	0	// hide			- Ficar invisível ou visivel
+	39	gmove		1	0		0	0	0	0	8	0	0	0	0	*	0	0	// gmove <nome> <mapa> <x> <y> - Move o jogador para as coordenadas especificadas
+	40	kill		1	0		0	0	0	0	8	0	0	0	0	*	0	0	// kill <nome>		- Matar o jogador se conectado
+	41	track		1	0		0	0	0	0	8	0	0	0	0	*	0	0	// track <nome> 	- Seguir o alvo se conectado
+	42	trace		1	0		0	0	0	0	8	0	0	0	0	*	0	0	// trace <nome> 	- Mover o alvo até a coordenada do GM
+	43	summon		1	0		0	0	0	0	8	0	0	0	0	*	0	0	// summon <id> <0~20>	- Invocar um monstro em sua coordenada
+	44	notice		1	0		0	0	0	0	8	0	0	0	0	*	0	0	// notice <mensagem> 	- Enviar uma mensagem para todos os GS
+	45	cleardrop	1	0		0	0	0	0	8	0	0	0	0	*	0	0	// cleardrop [distancia]- Remove os items dropados no mapa
+	46	edit		1	0		0	0	0	0	8	0	0	0	0	*	0	0	// edit <nome> <str> <dex> <vit> <ene> <cmd> - Editar os atributos do jogador
+	47	wcoinc		1	0		0	0	0	0	8	0	0	0	0	*	0	0	// wcoinc <nome> <num>	- Adiciona WCoinC
+	48	wcoinp		1	0		0	0	0	0	8	0	0	0	0	*	0	0	// wcoinp <nome> <num>	- Adiciona WCoinP
+	49	gpoint		1	0		0	0	0	0	8	0	0	0	0	*	0	0	// gpoint <nome> <num>	- Adiciona Globin Points
+	50	bcopen		1	0		0	0	0	0	8	0	0	0	0	*	0	0	// bcopen <minutos> 	- Tempo (minutos) para abrir o Blood Castle
+	51	dsopen		1	0		0	0	0	0	8	0	0	0	0	*	0	0	// dsopen <minutos> 	- Tempo (minutos) para abrir o Devil Square
+	52	ilopen		1	0		0	0	0	0	8	0	0	0	0	*	0	0	// ilopen <minutos> 	- Tempo (minutos) para abrir o Illusion Temple
+	53	ccopen		1	0		0	0	0	0	8	0	0	0	0	*	0	0	// ccopen <minutos> 	- Tempo (minutos) para abrir o Chaos Castle
+	54	itemx		1	0		0	0	0	0	8	0	0	0	0	*	0	0	// itemx <type> <id> <lvl> <skill> <luck> <add> <exc> <anc> <quant> <minutos> - Criar a quantidade de items especificada
+	55	dropx		1	0		0	0	0	0	8	0	0	0	0	*	0	0	// dropx	<type> <id> <lvl> <skill> <luck> <add> <exc> <anc> <quant> <minutos> - Dropar a quantidade de items especificada
+	56	makeset		1	0		0	0	0	0	8	0	0	0	0	*	0	0	// makeset <id> <lvl> <skill> <luck> <add> <exc> <anc> <min> <num> - Cria o set com os parâmetros informados
+	57	dropset		1	0		0	0	0	0	8	0	0	0	0	*	0	0	// dropset <id> <lvl> <skill> <luck> <add> <exc> <anc> <min> <num> - Dropa o set com os parâmetros informados
+	58	reload		1	0		0	0	0	0	8	0	0	0	0	*	0	0	// reload	 	- Recarrega as configurações do GameServer
+	59	effect		1	0		0	0	0	0	8	0	0	0	0	*	0	0	// effect <nome> <id>	- Aplicar ou remover o efeito (Buff) ao personagem (Ver Effect.txt) 
+	60	pklevel		1	0		0	0	0	0	8	0	0	0	0	*	0	0	// pklevel <nome> <lvl>	- Altera o nível de PK do personagem
+	61	mute		1	0		0	0	0	0	8	0	0	0	0	*	0	0	// mute <nome> <minutos>- Bloqueia o chat de um personagem pelo tempo em minutos
+	62	block		1	0		0	0	0	0	8	0	0	0	0	*	0	0	// block <conta> <0~1> 	- Bloqueia ou desbloqueia a conta especificada
+	63	eventbag	1	0		0	0	0	0	8	0	0	0	0	*	0	0	// eventbag <id>	- Abre uma caixa EventItemBag para o alvo específico (Ver EventItemBagManager.txt para cada id)
+end

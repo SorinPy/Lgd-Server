@@ -1,0 +1,6 @@
+//	Type	Count	Delay	Alpha	Red	Green	Blue	Speed	RepeatTime	String
+	10	1	0	255	255	255	0	15	200		"PerfectZone.com.br - Season 5.5"
+	10	1	0	255	255	0	0	15	200		"BETA TESTER: Se você encontrar um bug, contate o admin!"
+	10	1	0	255	0	255	0	15	200		"Bem vindo a PerfectZone!"
+	10	1	0	255	255	0	0	15	200		"Desenvolvido por SmileY :P"
+end

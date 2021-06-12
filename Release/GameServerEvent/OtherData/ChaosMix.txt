@@ -1,0 +1,171 @@
+[ChaosMix]
+; -----------------------------------------------------------
+; Open Settings
+; -----------------------------------------------------------
+OpenChaosBoxWithoutZen 		= 0			; Permite abrir Chaos Maxchine sem zens
+
+; -----------------------------------------------------------
+; Announce Chaos Mix Settings
+; -----------------------------------------------------------
+AnnounceChaosMix 		= 0			; Anunciar ao servidor quando concluir
+
+; -----------------------------------------------------------
+; Chaos Item Mix Settings
+; -----------------------------------------------------------
+ChaosItemMixRate 		= -1			; -1 = ValorDoItem / 20000
+
+; -----------------------------------------------------------
+; Devil Square Mix Settings
+; -----------------------------------------------------------
+DevilSquareMixRate1 		= 80			;
+DevilSquareMixRate2 		= 80			;
+DevilSquareMixRate3 		= 80			;
+DevilSquareMixRate4 		= 80			;
+DevilSquareMixRate5 		= 70			;
+DevilSquareMixRate6 		= 70			;
+DevilSquareMixRate7 		= 70
+
+; -----------------------------------------------------------
+; Plus Item Mix Settings
+; -----------------------------------------------------------
+PlusItemLevelMixRate1 		= 60			; +10
+PlusItemLevelMixRate2 		= 60			; +11
+PlusItemLevelMixRate3 		= 50			; +12
+PlusItemLevelMixRate4 		= 50			; +13
+PlusItemLevelMixRate5 		= 40			; +14
+PlusItemLevelMixRate6 		= 40			; +15
+
+; -----------------------------------------------------------
+; Dinorant Mix Settings
+; -----------------------------------------------------------
+DinorantMixRate 		= 70			;
+
+; -----------------------------------------------------------
+; Fruit Mix Settings
+; -----------------------------------------------------------
+FruitMixRate 			= 90			;
+
+; -----------------------------------------------------------
+; Wing2 Mix Settings
+; -----------------------------------------------------------
+Wing2MixRate 			= -1			; -1 (WingItemMoney / 4000000) + (ItemMoney / 40000) = Taxa de sucesso, 0~100 (Taxa de sucesso fixa)
+
+; -----------------------------------------------------------
+; Blood Castle Mix Settings
+; -----------------------------------------------------------
+BloodCastleMixRate1 		= 80			;
+BloodCastleMixRate2 		= 80			;
+BloodCastleMixRate3 		= 80			;
+BloodCastleMixRate4 		= 80			;
+BloodCastleMixRate5 		= 80			;
+BloodCastleMixRate6 		= 80			;
+BloodCastleMixRate7 		= 80			;
+BloodCastleMixRate8 		= 80			;
+
+; -----------------------------------------------------------
+; Wing1 Mix Settings
+; -----------------------------------------------------------
+Wing1MixRate 			= -1			; -1 (Valor do item / 20000 = Taxa de sucesso), 0~100 (Taxa de sucesso fixa)
+
+; -----------------------------------------------------------
+; Set Item (Ancient) Mix Settings
+; -----------------------------------------------------------
+SetItemMixRate 			= -1			; Ancient Metal Mix Rate
+SetItemMixRateMax		= 80			; Ancient Metal Max Mix Rate
+
+; -----------------------------------------------------------
+; Pet Mix Settings
+; -----------------------------------------------------------
+PetMixRate 			= 60			;
+
+; -----------------------------------------------------------
+; Piece of Horn Mix Settings
+; -----------------------------------------------------------
+PieceOfHornMixRate 		= 70			;
+
+; -----------------------------------------------------------
+; Broken Horn Mix Settings
+; -----------------------------------------------------------
+BrokenHornMixRate 		= 50			;
+
+; -----------------------------------------------------------
+; Horn of Fenrir Mix Settings
+; -----------------------------------------------------------
+HornOfFenrirMixRate 		= 30			;
+
+; -----------------------------------------------------------
+; Horn of Fenrir Upgrade Mix Settings
+; -----------------------------------------------------------
+HornOfFenrirUpgradeMixRate 	= -1			;
+
+; -----------------------------------------------------------
+; Shield Potion Mix Settings
+; -----------------------------------------------------------
+ShieldPotionMixRate1 		= 50			;
+ShieldPotionMixRate2 		= 30			;
+ShieldPotionMixRate3 		= 30			;
+
+; -----------------------------------------------------------
+; Jewel of Harmony Item Purity Mix Settings
+; -----------------------------------------------------------
+JewelOfHarmonyItemPurityMixRate = 100			;
+
+; -----------------------------------------------------------
+; Jewel of Harmony Item Smelt Mix Settings
+; -----------------------------------------------------------
+JewelOfHarmonyItemSmeltMixRate1 = 50			;
+JewelOfHarmonyItemSmeltMixRate2 = 100			;
+
+; -----------------------------------------------------------
+; Jewel of Harmony Item Restore Mix Settings
+; -----------------------------------------------------------
+JewelOfHarmonyItemRestoreMixRate = 100			;
+
+; -----------------------------------------------------------
+; Item380 Mix Settings
+; -----------------------------------------------------------
+Item380MixRate1 		= 50			;
+Item380MixRate2 		= 70			;
+
+; -----------------------------------------------------------
+; Illusion Temple Mix Settings
+; -----------------------------------------------------------
+IllusionTempleMixRate1 		= 70			;
+IllusionTempleMixRate2 		= 70			;
+IllusionTempleMixRate3 		= 70			;
+IllusionTempleMixRate4 		= 70			;
+IllusionTempleMixRate5 		= 70			;
+IllusionTempleMixRate6 		= 70			;
+
+; -----------------------------------------------------------
+; Feather Of Condor Mix Settings
+; -----------------------------------------------------------
+FeatherOfCondorMixRate 		= -1			;
+
+; -----------------------------------------------------------
+; Wing3 Mix Settings
+; -----------------------------------------------------------
+Wing3MixRate 			= -1			;
+
+; -----------------------------------------------------------
+; Socket Item Create Seed Mix Settings
+; -----------------------------------------------------------
+SocketItemCreateSeedMixRate 	= -1			;
+
+; -----------------------------------------------------------
+; Socket Item Create Seed Sphere Mix Settings
+; -----------------------------------------------------------
+SocketItemCreateSeedSphereMixRate = -1			;
+
+; -----------------------------------------------------------
+; Summon Scroll Mix Settings
+; -----------------------------------------------------------
+SummonScrollMixRate1 		= 50			;
+SummonScrollMixRate2 		= 50			;
+SummonScrollMixRate3 		= 40			;
+
+; -----------------------------------------------------------
+; Lucky Item Refine Mix Settings
+; -----------------------------------------------------------
+LuckyItemRefineMixRate1 	= 60			;
+LuckyItemRefineMixRate2 	= 10			;

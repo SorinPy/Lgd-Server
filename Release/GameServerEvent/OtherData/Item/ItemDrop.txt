@@ -1,0 +1,118 @@
+// Arquivo:	ItemDrop.txt
+// Atualizado:	10:39 01/01/2019
+// Descrição: 	Esse arquivo configura o sistema de drop, ele contém as seguintes colunas:
+//
+//	- Tipo			Categoria do item					0~15;
+//	- Id			Index do item						0~512;
+//	- Level			Level do item						0~15;
+//	- Grade			Item opção excelente ou durabilidade			0~1;
+//	- Option0		Id da opção no ItemOptionRate na seção 0		* Para Nenhnum
+//	- Option1		Id da opção no ItemOptionRate na seção 1		* Para Nenhnum
+//	- Option2		Id da opção no ItemOptionRate na seção 2		* Para Nenhnum
+//	- Option3		Id da opção no ItemOptionRate na seção 3		* Para Nenhnum
+//	- Option4		Id da opção no ItemOptionRate na seção 4		* Para Nenhnum
+//	- Option5		Id da opção no ItemOptionRate na seção 5		* Para Nenhnum
+//	- Option6		Id da opção no ItemOptionRate na seção 6		* Para Nenhnum
+//	- Tempo			Tempo que o item vai ficar ao chão (Segundos)		0 Automático, 1 até 32767;
+//	- Mapa			Id do mapa específico em que o item vai cair 		* Todos mapas;
+//	- Monstro		Id do monstro específico em que o item vai cair 	* Qualquer monstro;
+//	- MinLvl		Level mínimo do monstro					* Qualquer level;
+//	- MaxLvl		Level máximo do monstro					* Qualquer level;
+//	- DropRate		Taxa do drop						0 via Bonus Manager, * automático ou 1 até 1000000;
+//
+//
+//	Tipo		Index		Level		Grade		Option0		Option1		Option2		Option3		Option4		Option5		Option6		Tempo		Mapa		Monstro		MinLvl		MaxLvl		DropRate	Nome
+//
+	12		15		0		0		*		*		*		*		*		*		*		0		*		*		12		150		1000		// Jewel of Chaos
+	12		32		0		0		*		*		*		*		*		*		*		0		*		*		12		49		0		// Red Ribbon Box
+	12		33		0		0		*		*		*		*		*		*		*		0		*		*		50		69		0		// Green Ribbon Box
+	12		34		0		0		*		*		*		*		*		*		*		0		*		*		70		97		0		// Blue Ribbon Box
+	12		70		0		0		*		*		*		*		*		*		*		0		*		*		58		76		1000		// Sphere (Mono)   
+	12		71		0		0		*		*		*		*		*		*		*		0		*		*		77		101		1000		// Sphere (Di)
+	12		72		0		0		*		*		*		*		*		*		*		0		*		*		102		150		1000		// Sphere (Tri)
+	13		14		0		0		*		*		*		*		*		*		*		0		10		*		25		150		1000		// Loch's Feather  
+	13		14		1		0		*		*		*		*		*		*		*		0		10		*		25		150		1000		// Monarch's Crest 
+	13		16		1		0		*		*		*		*		*		*		*		0		*		*		1		32		1000		// Scroll of Archangel 1
+	13		16		2		0		*		*		*		*		*		*		*		0		*		*		33		45		1000		// Scroll of Archangel 2
+	13		16		3		0		*		*		*		*		*		*		*		0		*		*		46		57		1000		// Scroll of Archangel 3
+	13		16		4		0		*		*		*		*		*		*		*		0		*		*		58		68		1000		// Scroll of Archangel 4
+	13		16		5		0		*		*		*		*		*		*		*		0		*		*		69		76		1000		// Scroll of Archangel 5
+	13		16		6		0		*		*		*		*		*		*		*		0		*		*		77		84		1000		// Scroll of Archangel 6
+	13		16		7		0		*		*		*		*		*		*		*		0		*		*		85		101		1000		// Scroll of Archangel 7
+	13		16		8		0		*		*		*		*		*		*		*		0		*		*		102		150		1000		// Scroll of Archangel 8
+	13		17		1		0		*		*		*		*		*		*		*		0		*		*		1		32		1000		// Blood Bone 1
+	13		17		2		0		*		*		*		*		*		*		*		0		*		*		33		45		1000		// Blood Bone 2
+	13		17		3		0		*		*		*		*		*		*		*		0		*		*		46		57		1000		// Blood Bone 3
+	13		17		4		0		*		*		*		*		*		*		*		0		*		*		58		68		1000		// Blood Bone 4
+	13		17		5		0		*		*		*		*		*		*		*		0		*		*		69		76		1000		// Blood Bone 5
+	13		17		6		0		*		*		*		*		*		*		*		0		*		*		77		84		1000		// Blood Bone 6
+	13		17		7		0		*		*		*		*		*		*		*		0		*		*		85		101		1000		// Blood Bone 7
+	13		17		8		0		*		*		*		*		*		*		*		0		*		*		102		150		1000		// Blood Bone 8
+	13		31		0		0		*		*		*		*		*		*		*		0		*		*		25		150		1000		// Spirit of Dark Horse        
+	13		31		1		0		*		*		*		*		*		*		*		0		*		*		25		150		1000		// Spirit of Dark Spirit
+	13		32		0		0		*		*		*		*		*		*		*		0		34		*		97		134		2000		// Splinter of Armor
+	13		33		0		0		*		*		*		*		*		*		*		0		34		*		97		134		2000		// Bless of Guardian
+	13		34		0		0		*		*		*		*		*		*		*		0		34		*		97		134		2000		// Claw of Beast
+	13		38		0		0		*		*		*		*		*		*		*		0		38		*		25		150		5000		// Moonstone Ring
+	13		49		1		0		*		*		*		*		*		*		*		0		*		*		46		57		1000		// Old Scroll 1
+	13		49		2		0		*		*		*		*		*		*		*		0		*		*		58		68		1000		// Old Scroll 2
+	13		49		3		0		*		*		*		*		*		*		*		0		*		*		69		76		1000		// Old Scroll 3
+	13		49		4		0		*		*		*		*		*		*		*		0		*		*		77		84		1000		// Old Scroll 4
+	13		49		5		0		*		*		*		*		*		*		*		0		*		*		85		101		1000		// Old Scroll 5
+	13		49		6		0		*		*		*		*		*		*		*		0		*		*		102		150		1000		// Old Scroll 6
+	13		50		1		0		*		*		*		*		*		*		*		0		*		*		46		57		1000		// Illusion Sorcerer Covenant 1
+	13		50		2		0		*		*		*		*		*		*		*		0		*		*		58		68		1000		// Illusion Sorcerer Covenant 2
+	13		50		3		0		*		*		*		*		*		*		*		0		*		*		69		76		1000		// Illusion Sorcerer Covenant 3
+	13		50		4		0		*		*		*		*		*		*		*		0		*		*		77		84		1000		// Illusion Sorcerer Covenant 4
+	13		50		5		0		*		*		*		*		*		*		*		0		*		*		85		101		1000		// Illusion Sorcerer Covenant 5
+	13		50		6		0		*		*		*		*		*		*		*		0		*		*		102		150		1000		// Illusion Sorcerer Covenant 6
+	13		52		0		0		*		*		*		*		*		*		*		0		41		*		25		150		1000		// Flame of Condor
+	13		66		0		0		*		*		*		*		*		*		*		0		*		466		*		*		0		// Invitation to Santa Village
+	13		99		1		0		*		*		*		*		*		*		*		0		*		*		12		69		0		// Star of Christmas
+	14		11		3		0		*		*		*		*		*		*		*		0		*		*		12		69		0		// Heart of Love
+	14		11		5		0		*		*		*		*		*		*		*		0		*		*		12		49		0		// Silver Medal
+	14		11		6		0		*		*		*		*		*		*		*		0		*		*		50		69		0		// Gold Medal
+	14		11		7		0		*		*		*		*		*		*		*		0		*		*		50		69		0		// Box of Heaven
+	14		11		1		0		*		*		*		*		*		*		*		0		*		*		50		69		0		// Heart Of Dark Lord
+	14		11		1		0		*		*		*		*		*		*		*		0		*		*		50		69		0		// Blue Lucky Pouch
+	14		13		0		0		*		*		*		*		*		*		*		0		*		*		25		150		1000		// Jewel of Bless
+	14		14		0		0		*		*		*		*		*		*		*		0		*		*		25		150		1000		// Jewel of Soul
+	14		16		0		0		*		*		*		*		*		*		*		0		*		*		46		150		1000		// Jewel of Life      
+	14		17		1		0		*		*		*		*		*		*		*		0		*		*		1		32		1000		// Devil's Eye 1
+	14		17		2		0		*		*		*		*		*		*		*		0		*		*		33		45		1000		// Devil's Eye 2
+	14		17		3		0		*		*		*		*		*		*		*		0		*		*		46		57		1000		// Devil's Eye 3
+	14		17		4		0		*		*		*		*		*		*		*		0		*		*		58		68		1000		// Devil's Eye 4
+	14		17		5		0		*		*		*		*		*		*		*		0		*		*		69		76		1000		// Devil's Eye 5
+	14		17		6		0		*		*		*		*		*		*		*		0		*		*		77		84		1000		// Devil's Eye 6
+	14		17		7		0		*		*		*		*		*		*		*		0		*		*		85		150		1000		// Devil's Eye 7
+	14		18		1		0		*		*		*		*		*		*		*		0		*		*		1		32		1000		// Devil's Key 1
+	14		18		2		0		*		*		*		*		*		*		*		0		*		*		33		45		1000		// Devil's Key 2
+	14		18		3		0		*		*		*		*		*		*		*		0		*		*		46		57		1000		// Devil's Key 3
+	14		18		4		0		*		*		*		*		*		*		*		0		*		*		58		68		1000		// Devil's Key 4
+	14		18		5		0		*		*		*		*		*		*		*		0		*		*		69		76		1000		// Devil's Key 5
+	14		18		6		0		*		*		*		*		*		*		*		0		*		*		77		84		1000		// Devil's Key 6
+	14		18		7		0		*		*		*		*		*		*		*		0		*		*		85		150		1000		// Devil's Key 7
+	14		21		3		0		*		*		*		*		*		*		*		0		*		*		25		150		3000		// Sign Of Lord
+	14		22		0		0		*		*		*		*		*		*		*		0		*		*		46		150		1000		// Jewel of Creation
+	14		29		1		0		*		*		*		*		*		*		*		0		*		*		25		46		1000		// Symbol of Kundun 1
+	14		29		2		0		*		*		*		*		*		*		*		0		*		*		47		65		1000		// Symbol of Kundun 2
+	14		29		3		0		*		*		*		*		*		*		*		0		*		*		66		77		1000		// Symbol of Kundun 3
+	14		29		4		0		*		*		*		*		*		*		*		0		*		*		78		83		1000		// Symbol of Kundun 4
+	14		29		5		0		*		*		*		*		*		*		*		0		*		*		84		91		1000		// Symbol of Kundun 5
+	14		29		6		0		*		*		*		*		*		*		*		0		*		*		92		113		1000		// Symbol of Kundun 6
+	14		29		7		0		*		*		*		*		*		*		*		0		*		*		114		150		1000		// Symbol of Kundun 7
+	14		32		0		0		*		*		*		*		*		*		*		0		*		*		12		49		0		// Pink Chocolate Box
+	14		32		1		0		*		*		*		*		*		*		*		0		*		*		12		49		0		// Lilac Candy Box
+	14		33		0		0		*		*		*		*		*		*		*		0		*		*		50		69		0		// Red Chocolate Box
+	14		33		1		0		*		*		*		*		*		*		*		0		*		*		50		69		0		// Orange Chocolate Box
+	14		34		0		0		*		*		*		*		*		*		*		0		*		*		70		97		0		// Blue Chocolate Box
+	14		34		1		0		*		*		*		*		*		*		*		0		*		*		70		97		0		// Navy Candy Box
+	14		41		0		0		*		*		*		*		*		*		*		0		39		*		69		150		1000		// Gemstone
+	14		45		0		0		*		*		*		*		*		*		*		0		*		*		25		150		0		// Halloween Pumpkin     
+	14		90		0		0		*		*		*		*		*		*		*		0		*		*		58		150		0		// Golden Cherry Blossom Branch
+	14		100		0		0		*		*		*		*		*		*		*		0		*		*		25		150		0		// Lucky Coin
+	14		101		0		0		*		*		*		*		*		*		*		0		*		*		60		150		1000		// Suspicious Scrap of Paper
+	14		110		0		0		*		*		*		*		*		*		*		0		*		*		60		150		1000		// Sign of Dimensions
+	14		121		0		0		*		*		*		*		*		*		*		0		*		*		25		150		1000		// Sealed Golden Box
+	14		122		0		0		*		*		*		*		*		*		*		0		*		*		25		150		1000		// Sealed Silver Box
+end

@@ -1,0 +1,13 @@
+// Arquivo:	GameMaster.txt
+// Atualizado:	22:13 03/12/2020
+// Descrição: 	Esse arquivo configura as permissões de GM ou ADM no servidor,
+//		para tornar um personagem GM ou ADM, você deve também editar a coluna CtlCode na tabela Character;
+//
+//		- Conta 	Nome da conta que contém o personagem;
+//		- Personagem	Nome do personagem;
+//		- Nível		Nível que o personagem terá 0~32;
+//		- Mensagem	Mensagem global quando o personagem entrar no jogo;
+//
+//	Conta			Personagem		Nível		Mensagem
+	"smiley"		"SmileY"		32		"GM %s Online!"
+end

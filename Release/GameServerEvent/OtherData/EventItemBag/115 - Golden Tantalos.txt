@@ -1,0 +1,36 @@
+// Autor: SmileY
+// Atualizado: 21:30 26/11/2020
+// Descrição: 
+//	Esse arquivo ajusta as definições de EventItemBag (Monsttro|Evento|NPC).
+//	Cada seção configura um grupo na EventItemBag, na seção 2 há duas colunas a mais.
+//
+//	[Seção 0]
+//		- Evento		Nome do evento;
+//		- DropZen		Zen que vai cair se o drop de item falhar;
+//		- ItemDropRate		Taxa de drop do item 0~100;
+//		- ItemDropCount		Quantidade de items aleatórios a dropar;
+//		- SetItemDropRate	Taxa de drop do item anciente 0~10000;
+//		- ItemDropType		Tipo de drop: 0 opções fixas, 1 opções aleatórias;
+//		- Fireworks		Efeito fogos ao abrir;
+//
+//	[Seção 1~2]
+//		- Grupo			Grupo do item 0~15;
+//		- Tipo			Index do item 0~512;
+//		- MinLevel		Level mínimo do item 0~15;
+//		- MaxLevel		Level máximo do item 0~15;		
+//		- Skill			Skill 0~1;
+//		- Luck			Luck 0~1;
+//		- Option		Opções adicionais 0~7;
+//		- Excellent		Opções excelentes 0~6;
+//		- SetOption		(Somente Seção 2) Tipo de item anciente, 0~2;
+//		- SocketOption		(Somente Seção 2) Slots livres se for socket 0~5;
+//
+0
+//	Evento			DropZen		ItemDropRate	ItemDropCount	SetItemDropRate	ItemDropType	Fireworks
+	"Golden Tantalos"		1000		100		1		0		0		0
+end
+
+1
+//	Grupo		Index		MinLevel	MaxLevel	Skill		Luck		Option		Excellent
+	14		11		10		10		0		0		0		0
+end

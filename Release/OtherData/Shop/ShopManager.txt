@@ -1,0 +1,37 @@
+// Arquivo:	ShopManager.txt
+// Atualizado:	12:25 04/12/2020
+// Descrição: 	Esse arquivo configura os shops, ele contém as seguintes seções:
+//
+//		- ID		Index do shop;
+//		- NPC 		Index do NPC;
+//		- PK 		Permite uso se PK;
+//		- VIP		Plano vip requerido;
+//
+//	ID	NPC	PK	VIP
+//
+	0	251	0	*	// Hanzo the Blacksmith
+	1	255	0	*	// Liaman the Barmaid
+	2	254	0	*	// Pasi the Wizard
+	3	250	0	*	// Harold the Wandering Merchant
+	4	248	0	*	// Martin the Wandering Merchant
+	5	253	0	*	// Amy the Potion Girl
+	6	244	0	*	// Caren the Barmaid
+	7	245	0	*	// Isabel the Wizard
+	8	246	0	*	// Zienna the Weapon Merchant
+	9	243	0	*	// Eo the Craftsman
+	10	242	0	*	// Elf Lala
+	11	230	0	*	// Alex the Wandering Merchant
+	12	231	0	*	// Thompson Kenel
+	13	376	0	*	// Pamela the Supplier
+	14	377	0	*	// Angela the Supplier
+	15	379	0	*	// Fireworks Girl
+	16	415	0	*	// Sivia
+	17	416	0	*	// Leah
+	18	417	0	*	// Marseille
+	19	492	0	*	// Moss Merchant
+	20	545	0	*	// Christine
+	21	239	0	*	// Stadium Guard
+	22	259	0	*	// Priestess Reira
+	23	577	0	*	// Leina
+	24	578	0	*	// Bolo
+end

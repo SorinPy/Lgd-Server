@@ -1,0 +1,80 @@
+// Arquivo:	Jewel.txt
+// Atualizado:	12:05 21/04/2019
+// Descrição: 	Esse arquivo configura o sistema de jóias personalizadas, ele contém as seguintes seções:
+//
+// 	[Seção 0] (Configura a inserção das jóias nos items)
+//
+//		- Id		Index da jóia, 0~15
+//		- Tipo		Categoria do item, 0~15;
+//		- Index		Index do item, 0~512;
+//		- MinLvl	Mínimo de nível para o item: 0~15 (* Desativa verificação);
+//		- MaxLvl	Limite de nível para o item: 0~15 (* Desativa verificação);
+//		- MaxOpt1	Verifica  a opção skill: 0 Não pode ter, 1 deverá ter (* Desativa verificação);
+//		- MaxOpt2	Verifica  a opção luck: 0 Não pode ter, 1 deverá ter (* Desativa verificação);
+//		- MinOpt3	Quantidade mínima de opcionais que o item deverá ter (* Desativa verificação);
+//		- MaxOpt3	Quantidade máxima de opcionais que o item deverá ter (* Desativa verificação);
+//		- MinNewOpt	Mínimo de opcções excelentes do item para aplicar jóia;
+//		- MaxNewOpt 	Máximo de opcções excelentes de 0~10, acima de 10: 11 1, 12 2, 14 3, 18 4, 26 5, 42 6 (* Desativa verificação);
+//		- MaxSetOpt	Anciente requerido: 0 Não anciente, 1 NA + suporte nº 1, 2 NA + suporte nº 2, 3 NA + suporte nº 1 e 2, (* Desativa verificação);
+//		- Max380Opt	Adiciona opção 380 Option: 1 Sim, 2 não (* Desativa verificação);
+//		- MinSockOpt	Mínimo de socket: 0~5 (* Desativa verificação);
+//		- MaxSockOpt	Limite de socket: 0~5 (* Desativa verificação);
+//		- Weapons	Permite em armas: 0~1;
+//		- Armors	Permite em armaduras: 0~1;
+//		- Wings		Permite em asas: 0~1;
+//		- Rate		Chance de sucesso: 0~100;
+//		- Preço		Valor da jóia em zens: 0~2000000000;
+//
+// 	[Seção 1] (O que fazer se obtiver sucesso)
+//
+//		- Id		Index da jóia, 0~15;
+//		- Level		Leveis adicionados se tiver sucesso: 0~15;
+//		- Skill		Adiciona skill: 0 não, 1 sim;
+//		- Luck		Adiciona luck: 0 não, 1 sim;
+//		- Adicional	Adicionais: 0~7;
+//		- Excelente	Opcções excelentes de 0~10, acima de 10: 11 1, 12 2, 14 3, 18 4, 26 5, 42 6;
+//		- Anciente	Anciente: 0 Não, 5 Se não houver anciente, 10 se houver anciente nº 1 +5
+//		- 380		Adiciona opção 380 Option: 1 Sim, 2 não;
+//		- Socket	Slots adicionados: 0~5;
+//	
+// 	[Seção 2] (O que fazer se falhar)
+//
+//		- Id		Index da jóia, 0~15;
+//		- Level		Leveis removidos se falhar: 0~15;
+//		- Skill		Remove skill: 0 não, 1 sim;
+//		- Luck		Remove luck: 0 não, 1 sim;
+//		- Adicional	Adicionais removidos: 0~7;
+//		- Excelente	Sem funcionalidade;
+//		- Anciente	Sem funcionalidade;
+//		- 380		Sem funcionalidade;
+//		- Socket	Sem funcionalidade;
+//
+0
+//		Id		Tipo		Index		MinLvl		MaxLvl		MaxOpt1		MaxOpt2		MinOpt3		MaxOpt3		MinNewOpt	MaxNewOpt	MaxSetOpt	Max380Opt	MinSockOpt	MaxSockOpt	Weapons		Armors		Wings		Rate		Preço
+		0		14		170		*		*		*		*		*		*		*		5		*		*		*		*		1		1		1		100		1000000000	// Jewel of Excellent
+		1		14		171		*		*		*		*		*		6		*		*		*		*		*		*		1		1		1		100		1000000000	// Jewel of Option
+		2		14		172		*		*		*		0		*		*		*		*		*		*		*		*		1		1		1		100		1000000000	// Jewel of Luck
+		3		14		173		0		15		*		*		*		*		*		*		*		*		*		*		1		1		1		100		1000000000	// Jewel of Level
+		4		14		174		*		*		0		*		*		*		*		*		*		*		*		*		1		0		0		100		1000000000	// Jewel of Skill
+		5		14		175		*		*		*		*		*		*		*		*		*		*		*		5		1		1		0		100		1000000000	// Jewel of Socket
+		6		14		176		*		*		*		*		*		*		*		*		*		*		*		*		1		1		0		100		1000000000	// Jewel of Ancient (+5)
+		7		14		177		*		*		*		*		*		*		*		*		*		*		*		*		1		1		0		100		1000000000	// Jewel of Ancient (+10)
+		8		14		178		*		*		*		*		*		*		*		*		*		*		*		*		1		1		0		100		1000000000	// Jewel of 380 Option
+end
+
+1
+//		Id		Level		Skill		Luck		Adicional	Excelente	Anciente	380		Socket
+		0		0		0		0		0		1		0		0		0
+		1		0		0		0		1		0		0		0		0
+		2		0		0		1		0		0		0		0		0
+		3		1		0		0		0		0		0		0		0
+		4		0		1		0		0		0		0		0		0
+		5		0		0		0		0		0		0		0		1
+		6		0		0		0		0		0		5		0		0
+		7		0		0		0		0		0		10		0		0
+		8		0		0		0		0		0		0		1		0
+end
+
+2
+//		Id		Level		Skill		Luck		Adicional	Excelente	Anciente	380		Socket
+end

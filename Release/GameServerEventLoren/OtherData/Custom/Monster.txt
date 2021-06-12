@@ -1,0 +1,22 @@
+// Arquivo:	Monster.txt
+// Atualizado:	11:21 26/02/2020
+// Descrição: 	Adiciona monstros personalizados ao servidor.
+//		Para configurar o tipo de recompensa, edite a procedure WZ_CustomMonsterReward;
+//
+//	- [01] Index		Index do monstro (Mesmo index do Monster.txt do servidor);
+//	- [02] Mapa		Mapa que será aplicado as configurações, ou * para todos os mapas;
+//	- [03] MaxLife		Taxa de vida (0-100) ou (* usar Monter.txt);
+//	- [04] Dano Mínimo	Taxa de dano mínimo (0-100) ou (* usar Monter.txt);
+//	- [05] Dano Máximo	Taxa de dano máximo (0-100) ou (* usar Monter.txt);
+//	- [06] Defesa		Taxa de defesa (0-100) ou (* usar Monter.txt);
+//	- [07] Attack Rate	Taxa de chance de acerto (0-100) ou (* usar Monter.txt);
+//	- [08] Defense Rate	Taxa de chance de defesa (0-100) ou (* usar Monter.txt);
+//	- [09] Experience Rate  Taxa de chance de defesa (0-100) ou (* não aplicar);
+//	- [10] Mensagem Global	Id da mensagem ao matar (Modelo: "O jogador %s matou o monstro") (* Nenhum);
+// 	- [11] Mensagem Player	Id da mensagem ao matar (Modelo: "Voce ganhou %d WCoin e %d GoblinPoint") (* Nenhum);
+//	- [12] Recompensa 1	Valor da recompensa (* Para desativar);
+//	- [13] Recompensa 2 	Valor da recompensa (* Para desativar);
+//
+//	[01]	[02]	[03]	[04]	[05]	[06]	[07]	[08]	[09]	[10]	[11]	[12]	[13]
+//
+end

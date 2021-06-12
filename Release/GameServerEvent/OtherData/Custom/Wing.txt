@@ -1,0 +1,16 @@
+//	Id		Categoria	Index		DefenseConstA	IncDamageConstA	IncDamageConstB	DecDamageConstA	DecDamageConstB	OptionIndex1	OptionValue1	OptionIndex2	OptionValue2	OptionIndex3	OptionValue3	NewOptionIndex1	NewOptionValue1	NewOptionIndex2	NewOptionValue2	NewOptionIndex3	NewOptionValue3	NewOptionIndex4	NewOptionValue4
+	0		12		144		4		139		2		61		2		80		4		85		1		83		4		110		5		111		5		109		5		108		5
+	1		12		145		4		139		2		61		2		80		4		85		1		83		4		110		5		111		5		109		5		108		5
+	2		12		146		4		139		2		61		2		80		4		85		1		83		4		110		5		111		5		109		5		108		5
+	3		12		147		4		139		2		61		2		81		4		85		1		83		4		110		10		111		10		109		10		108		10
+	4		12		148		4		139		2		61		2		81		4		85		1		83		4		110		10		111		10		109		10		108		10
+	5		12		149		4		139		2		61		2		81		4		85		1		83		4		110		10		111		10		109		10		108		10
+	6		12		150		4		139		2		61		2		81		4		85		1		83		4		110		10		111		10		109		10		108		10
+	7		12		151		2		162		2		50		2		81		4		85		1		83		4		108		7		109		7		110		6		111		6
+	8		12		152		2		162		2		50		2		81		4		85		1		83		4		108		7		109		7		110		6		111		6
+	9		12		153		2		162		2		50		2		81		4		85		1		83		4		108		7		109		7		110		6		111		6
+	10		12		154		2		162		2		50		2		81		4		85		1		83		4		108		7		109		7		110		6		111		6
+	11		12		155		2		162		2		50		2		81		4		85		1		83		4		108		7		109		7		110		6		111		6
+	12		12		156		2		162		2		50		2		81		4		85		1		83		4		108		7		109		7		110		6		111		6
+	13		12		157		2		162		2		50		2		81		4		85		1		83		4		108		7		109		7		110		6		111		6
+end

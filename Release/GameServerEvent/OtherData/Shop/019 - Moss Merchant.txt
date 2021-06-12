@@ -1,0 +1,29 @@
+// Autor: SmileY
+// Atualizado: 23:31 27/11/2020
+// Descricao: 
+//	Esse arquivo ajusta as definicoes do shop usando moeda Zen.
+//	Cada shop pode conter 120 items com opcoes variadas.
+//
+//	[Secao] O shop possui as seguintes colunas:
+//		- Grupo: 	Categoria do item em item.txt;
+//		- Id: 		ID do item em sua categoria no item.txt;
+//		- Lvl: 		Level do item: 0~15;
+//		- Dur: 		Durabilidade: 0~255;
+//		- Skill: 	Skill 0~1;
+//		- Luck: 	Luck 0~1;
+//		- Opt: 		Adicional do item 0~7;
+//		- Exc: 		Opcoes excelentes, 0~63;
+//		- Anc: 		ID do anciente que consta em ItemSetOption.txt;
+//		- JoH:		ID do harmony;
+//		- 380		ID do item 380;
+//		- Slot(1~5)	Socket slot (255 Nenhum, 254 Slot livre) (Ver SocketItemOption.txt);
+//		- Bonus		Socket bonus;
+//
+//	Grupo	Id	Lvl	Dur	Skill	Luck	Opt	Exc	Anc	JoH	380	Slot1	Slot2	Slot3	Slot4	Slot5	Bonus
+//
+	13	71	0	0	1	1	3	0	0	0	0	255	255	255	255	255	255	//
+	13	72	0	0	1	1	3	0	0	0	0	255	255	255	255	255	255	//
+	13	73	0	0	1	1	3	0	0	0	0	255	255	255	255	255	255	//
+	13	74	0	0	1	1	3	0	0	0	0	255	255	255	255	255	255	//
+	13	75	0	0	1	1	3	0	0	0	0	255	255	255	255	255	255	//
+end

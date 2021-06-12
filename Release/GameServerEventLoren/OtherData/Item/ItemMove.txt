@@ -1,0 +1,128 @@
+// Arquivo:	ItemMove.txt
+// Atualizado:	22:26 04/02/2020
+// Descrição: 	Esse arquivo configura onde os items podem ser usados, ele contém as seguintes colunas:
+//
+//	- Tipo		Categoria do item: 0~15/
+//	- Index		Index do item: 0~512;
+//	- Dropar	Permite dropar o item: 0~1;
+//	- Vender	Permite vender o item: 0~1;
+//	- Trade		Permite trocar o item: 0~1;
+//	- Baú		Permite armazear o item: 0~1;
+//
+//	Tipo		Index		Dropar		Vender		Trade		Baú
+//
+	12		0		0		1		1		1		// Wings of Elf
+	12		1		0		1		1		1		// Wings of Heaven
+	12		2		0		1		1		1		// Wings of Satan
+	12		3		0		1		1		1		// Wings of Spirits
+	12		4		0		1		1		1		// Wings of Soul
+	12		5		0		1		1		1		// Wings of Dragon
+	12		6		0		1		1		1		// Wings of Darkness
+	12		15		0		1		1		1		// Jewel of Chaos
+	12		30		0		1		1		1		// Bundled Jewel of Bless
+	12		31		0		1		1		1		// Bundled Jewel of Soul
+	12		36		0		1		1		1		// Wings of Storm
+	12		37		0		1		1		1		// Wings of Eternal
+	12		38		0		1		1		1		// Wings of Illusion
+	12		39		0		1		1		1		// Wings of Doom
+	12		40		0		1		1		1		// Mantle of Monarch
+	12		41		0		1		1		1		// Wings of Curse
+	12		42		0		1		1		1		// Winds of Despair
+	12		43		0		1		1		1		// Wings of Dimension
+	12		60		0		1		1		1		// Seed (Fire
+	12		61		0		1		1		1		// Seed (Water)
+	12		62		0		1		1		1		// Seed (Ice)
+	12		63		0		1		1		1		// Seed (Wind)
+	12		64		0		1		1		1		// Seed (Lightning)
+	12		65		0		1		1		1		// Seed (Earth)
+	12		70		0		1		1		1		// Sphere (Mono)
+	12		71		0		1		1		1		// Sphere (Di)
+	12		72		0		1		1		1		// Sphere (Tri)
+	12		73		0		1		1		1		// Sphere (Tetra)
+	12		74		0		1		1		1		// Sphere (Penta)
+	12		100		0		1		1		1		// Seed Sphere (Fire)
+	12		101		0		1		1		1		// Seed Sphere (Water)
+	12		102		0		1		1		1		// Seed Sphere (Ice)
+	12		103		0		1		1		1		// Seed Sphere (Wind)
+	12		104		0		1		1		1		// Seed Sphere (Lightning)
+	12		105		0		1		1		1		// Seed Sphere (Earth)
+	12		106		0		1		1		1		// Seed Sphere (Fire)
+	12		107		0		1		1		1		// Seed Sphere (Water)
+	12		108		0		1		1		1		// Seed Sphere (Ice)	
+	12		109		0		1		1		1		// Seed Sphere (Wind)
+	12		110		0		1		1		1		// Seed Sphere (Lightning)
+	12		111		0		1		1		1		// Seed Sphere (Earth)
+	12		112		0		1		1		1		// Seed Sphere (Fire)
+	12		113		0		1		1		1		// Seed Sphere (Water)
+	12		114		0		1		1		1		// Seed Sphere (Ice)
+	12		115		0		1		1		1		// Seed Sphere (Wind)
+	12		116		0		1		1		1		// Seed Sphere (Lightning)
+	12		117		0		1		1		1		// Seed Sphere (Earth)
+	12		118		0		1		1		1		// Seed Sphere (Fire)
+	12		119		0		1		1		1		// Seed Sphere (Water)
+	12		120		0		1		1		1		// Seed Sphere (Ice)
+	12		121		0		1		1		1		// Seed Sphere (Wind)
+	12		122		0		1		1		1		// Seed Sphere (Lightning)
+	12		123		0		1		1		1		// Seed Sphere (Earth)
+	12		124		0		1		1		1		// Seed Sphere (Fire)
+	12		125		0		1		1		1		// Seed Sphere (Water)
+	12		126		0		1		1		1		// Seed Sphere (Ice)
+	12		127		0		1		1		1		// Seed Sphere (Wind)
+	12		128		0		1		1		1		// Seed Sphere (Lightning)
+	12		129		0		1		1		1		// Seed Sphere (Earth)
+	12		130		0		1		1		1		// Small Cape of Lord
+	12		131		0		1		1		1		// Small Wing of Curse
+	12		132		0		1		1		1		// Small Wings of Elf
+	12		133		0		1		1		1		// Small Wings of Heaven
+	12		134		0		1		1		1		// Small Wings of Satan
+	12		135		0		1		1		1		// Little Warrior's Cloak
+	12		136		0		1		1		1		// Bundled Jewel of Life
+	12		137		0		1		1		1		// Bundled Jewel of Creation
+	12		138		0		1		1		1		// Bundled Jewel of Guardian
+	12		139		0		1		1		1		// Bundled Gemstone
+	12		140		0		1		1		1		// Bundled Jewel of Harmony
+	12		141		0		1		1		1		// Bundled Jewel of Chaos
+	12		142		0		1		1		1		// Bundled Lower Refining Stone
+	12		143		0		1		1		1		// Bundled Higer Refining Stone
+	12		144		0		1		1		1		// Wings of Conqueror
+	12		145		0		1		1		1		// Wings of Angel and Devil
+	12		146		0		1		1		1		// Wings of Thunder
+	13		0		0		1		1		1		// Guardian Angel
+	13		1		0		1		1		1		// Imp
+	13		2		0		1		1		1		// Horn of Uniria
+	13		3		0		1		1		1		// Horn of Dinorant
+	13		19		1		0		0		0		// Absolute Weapon of Archangel
+	13		20		1		1		0		0		// Wizards Ring
+	13		37		0		1		1		1		// Horn of Fenrir
+	13		38		1		1		0		1		// Moonstone Ring
+	13		39		1		1		0		1		// Eilte Transfer Skeleton Ring
+	13		54		0		1		1		1		// Reset Fruit Strength
+	13		55		0		1		1		1		// Reset Fruit Agility
+	13		56		0		1		1		1		// Reset Fruit Vitality
+	13		57		0		1		1		1		// Reset Fruit Energy
+	13		58		0		1		1		1		// Reset Fruit Control
+	13		64		0		1		1		1		// Demon
+	13		65		0		1		1		1		// Spirit of Guardian
+	13		67		0		1		1		1		// Pet Rudolf
+	13		80		0		1		1		1		// Pet Panda
+	14		13		0		1		1		1		// Jewel of Bless
+	14		14		0		1		1		1		// Jewel of Soul
+	14		16		0		1		1		1		// Jewel of Life
+	14		22		0		1		1		1		// Jewel of Creation
+	14		41		0		1		1		1		// Gemstone
+	14		42		0		1		1		1		// Jewel of Harmony
+	14		43		0		1		1		1		// Lower refining stone
+	14		44		0		1		1		1		// Higher refining stone
+	14		53		0		1		1		1		// Talisman of Luck
+	14		64		1		0		0		0		// Cursed Castle Water
+	14		96		0		1		1		1		// Talisman of Chaos Assembly
+	14		170		0		1		1		1		// Jewel of Excellent
+	14		171		0		1		1		1		// Jewel of Option
+	14		172		0		1		1		1		// Jewel of Luck
+	14		173		0		1		1		1		// Jewel of Level
+	14		174		0		1		1		1		// Jewel of Skill
+	14		175		0		1		1		1		// Jewel of Socket
+	14		176		0		1		1		1		// Jewel of Ancient (+5)
+	14		177		0		1		1		1		// Jewel of Ancient (+10)
+	14		178		0		1		1		1		// Jewel of 380 Option
+end

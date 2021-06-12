@@ -1,0 +1,90 @@
+0
+//	Ano	Mês	Dia	DiaSem	Hora	Minuto	Segundo
+	*	*	*	*	21	0	0
+end
+
+1
+//	Grupo	Chance
+	1	50
+	2	50
+end
+
+2
+//	Grupo 	Index	Minuto do spawn
+	1	1	0
+	1	2	10
+	1	3	20
+	2	1	0
+	2	2	10
+	2	3	20
+end
+
+3
+//	Grupo	Index	Classe	Número	X	Y	TX	TY
+	1	1	39	40	95	32	155	53	// Poison Shadow
+	1	1	34	40	95	32	155	53	// Cursed Wizard
+	1	1	41	40	95	32	155	53	// Death Cow
+	1	1	37	40	95	32	155	53	// Devil
+	1	1	40	40	95	32	155	53	// Death Knight
+	1	1	35	40	95	32	155	53	// Death Gorgon
+	1	1	48	40	95	32	155	53	// Lizard King
+	1	1	62	40	95	32	155	53	// Mutant
+	1	1	300	1	95	32	155	53	// Hero Mutant
+	
+	1	2	69	40	97	35	150	53	// Alquamos
+	1	2	60	40	97	35	150	53	// Bloody wolf
+	1	2	71	40	97	35	150	53	// Mega Crust
+	1	2	57	40	97	35	150	53	// Iron Wheel
+	1	2	70	40	97	35	150	53	// Queen Rainier
+	1	2	58	40	97	35	150	53	// Tantalos
+	1	2	61	40	97	35	150	53	// Beam Knight
+	1	2	73	40	97	35	150	53	// Drakan
+	1	2	74	40	97	35	150	53	// Alpha Crust
+	1	2	72	40	97	35	150	53	// Phantom Knight
+	1	2	301	1	97	35	150	53	// Omega Wing
+
+	1	3	49	30	97	35	150	53	// Hydra
+	1	3	139	30	97	35	150	53	// Chief Skeleton Archer
+	1	3	123	30	97	35	150	53	// Red Skeleton Knight
+	1	3	59	30	97	35	150	53	// Zaikan
+	1	3	74	30	97	35	150	53	// Alpha Crust
+	1	3	63	30	97	35	150	53	// Death Beam Knight
+	1	3	293	50	97	35	150	53	// Poison Golem
+	1	3	292	50	97	35	150	53	// Queen Bee
+	1	3	291	50	97	35	150	53	// Fire Golem
+	1	3	303	1	97	35	150	53	// Gigas Golem
+
+	2	1	39	30	95	32	155	53	// Poison Shadow
+	2	1	34	30	95	32	155	53	// Cursed Wizard
+	2	1	41	30	95	32	155	53	// Death Cow
+	2	1	37	30	95	32	155	53	// Devil
+	2	1	40	30	95	32	155	53	// Death Knight
+	2	1	35	30	95	32	155	53	// Death Gorgon
+	2	1	48	30	95	32	155	53	// Lizard King
+	2	1	62	30	95	32	155	53	// Mutant
+	2	1	300	1	95	32	155	53	// Hero Mutant
+
+	2	2	294	30	97	35	150	53	// Ax Warrior
+	2	2	290	30	97	35	150	53	// Lizard Warrior
+	2	2	193	30	97	35	150	53	// Aegis
+	2	2	194	30	97	35	150	53	// Rogue Centurion
+	2	2	192	30	97	35	150	53	// Blood Soldier
+	2	2	190	30	97	35	150	53	// Death Angel
+	2	2	195	30	97	35	150	53	// Necron
+	2	2	61	30	97	35	150	53	// Beam Knight
+	2	2	73	30	97	35	150	53	// Drakan
+	2	2	127	30	97	35	150	53	// Dark Skull Soldier
+	2	2	302	1	97	35	150	53	// Axl Hero
+
+	2	3	49	30	97	35	150	53	// Hydra
+	2	3	139	30	97	35	150	53	// Chief Skeleton Archer
+	2	3	123	30	97	35	150	53	// Red Skeleton Knight
+	2	3	59	30	97	35	150	53	// Zaikan
+	2	3	74	30	97	35	150	53	// Alpha Crust
+	2	3	63	30	97	35	150	53	// Death Beam Knight
+	2	3	293	50	97	35	150	53	// Poison Golem
+	2	3	292	50	97	35	150	53	// Queen Bee
+	2	3	291	50	97	35	150	53	// Fire Golem
+	2	3	303	1	97	35	150	53	// Gigas Golem
+	2	3	295	1	97	35	150	53	// Erohim
+end

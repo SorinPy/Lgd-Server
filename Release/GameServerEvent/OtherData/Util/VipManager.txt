@@ -1,0 +1,24 @@
+// Arquivo:	VipManager.txt
+// Atualizado:	21:21 13/02/2021
+// Descrição: 	Esse arquivo configura o sistema de VIP, ele contém as seguintes seções:
+//
+//	- Index 	Nível da conta;
+//	- Exp 		Experiência bonus, 0~100;
+//	- MExp		Experiência master bonus, 0~100;
+//	- Zen 		Drop Zen bonus, 0~1000000;
+//	- Drop 		Drop bonus, 0~1000000;
+//	- ExDrop	Drop Excelente bonus, 0~1000000;
+//	- SiegeSkill 	Siege skill em qualquer mapa, 0~1;
+//	- PostColor	GS Atual (1 Dourado, 2 Azul, 3 Verde,  4 Amarelo) Todos GS (5 Dourado, 6 Azul, 7 Verde,  8 Amarelo)
+//	- Baús		Número limite de baú extra, 0~99;
+//	- Helper	Habilitar MU Helper;
+//	- Nome		Nome do plano VIP;
+//	- Mensagem	Mensagem ao entrar no jogo;
+//
+//	Index		Exp		MExp		Zen		Drop		ExDrop		SiegeSkill	PostColor	Baús		MuHelper	Nome		Mensagem
+//
+	0		0		0		0		0		0		0		5		5		1		"Free"		"Olá %s, Conta Free"
+	1		10		10		50		80		80		0		6		10		1		"Bronze"	"Olá %s, Conta Bronze"
+	2		20		20		60		90		90		1		7		20		1		"Silver"	"Olá %s, Conta Silver"
+	3		30		30		70		100		100		1		8		30		1		"Gold"		"Olá %s, Conta Gold"
+end

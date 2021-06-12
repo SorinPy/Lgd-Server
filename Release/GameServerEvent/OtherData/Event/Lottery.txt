@@ -1,0 +1,54 @@
+// Arquivo:	LotteryEvent.txt (Devias Golden Archer)
+// Atualizado:	00:16 27/04/2019
+// Descrição: 	Esse arquivo configura o sistema do Golden Archer (Lottery Event) de Devias,
+//		e contém as seguintes configurações:
+//
+//		- Number		Número de identificação do serial (Coluna Number)
+//		- Tipo			Categoria do item, 0~15
+//		- Index			Index do item, 0~15;
+//		- Level			Level do item, 0~15;
+//		- Durabilidade		Durabilidade do item, 0 (automático) ~ 255;
+//		- Skill			Skill, 0~1;
+//		- Luck			Luck, 0~1;
+//		- Adicional		Adicional, 0~7;
+//		- Excelente		Excelente, 0~63;
+//		- Anciente		ID do anciente, (Ver SetItemOption.txt);
+//		- Fireworks		Fogos ao criar item, 0~1;
+//
+// 	Number		Tipo		Index		Level		Durabilidade	Skill		Luck		Adicional	Excelente	Anciente	Fogos
+	1		14		13		0		0		0		0		0		0		0		1		// Jewel of Bless
+	2		14		14		0		0		0		0		0		0		0		1		// Jewel of Bless
+	3		12		15		0		0		0		0		0		0		0		1		// Jewel of Chaos
+	4		14		16		0		0		0		0		0		0		0		1		// Jewel of Life
+	5		13		0		0		0		0		0		0		0		0		1		// Guardian Angel
+	6		13		1		0		0		0		0		0		0		0		1		// Imp
+	7		14		22		0		0		0		0		0		0		0		1		// Jewel of Creation
+	8		14		11		8		0		0		0		0		0		0		1		// Box of Kundun +1
+	9		14		11		9		0		0		0		0		0		0		1		// Box of Kundun +2
+	10		14		11		10		0		0		0		0		0		0		1		// Box of Kundun +3
+	11		14		11		11		0		0		0		0		0		0		1		// Box of Kundun +4
+	12		14		11		12		0		0		0		0		0		0		1		// Box of Kundun +5
+	13		14		42		0		0		0		0		0		0		0		1		// Jewel of Harmony
+	14		14		44		0		0		0		0		0		0		0		1		// Higher Refining Stone
+	15		14		43		0		0		0		0		0		0		0		1		// Lower Refining Stone
+	16		14		31		0		0		0		0		0		0		0		1		// Jewel of Guardian
+	17		12		30		2		0		0		0		0		0		0		1		// Bundled Jewel of Bless
+	18		12		31		2		0		0		0		0		0		0		1		// Bundled Jewel of Soul
+	19		13		14		0		0		0		0		0		0		0		1		// Loch's Feather
+	20		13		52		0		0		0		0		0		0		0		1		// Flame of Condor
+	21		13		53		0		0		0		0		0		0		0		1		// Feather of Condor
+	22		13		64		0		0		0		0		0		0		0		1		// Demon
+	23		13		65		0		0		0		0		0		0		0		1		// Spirit of Guardian
+	24		14		58		0		0		0		0		0		0		0		1		// Rare Item Ticket 1
+	25		14		59		0		0		0		0		0		0		0		1		// Rare Item Ticket 2
+	26		14		60		0		0		0		0		0		0		0		1		// Rare Item Ticket 3
+	27		14		61		0		0		0		0		0		0		0		1		// Rare Item Ticket 4
+	28		14		62		0		0		0		0		0		0		0		1		// Rare Item Ticket 5
+	29		14		92		0		0		0		0		0		0		0		1		// Chaos Card Gold
+	30		14		93		0		0		0		0		0		0		0		1		// Chaos Card Rare
+	31		14		95		0		0		0		0		0		0		0		1		// Chaos Card Mini
+	32		13		67		0		0		0		0		0		0		0		1		// Rudolf
+	33		13		76		0		0		0		0		0		0		0		1		// Panda Ring
+	34		13		122		0		0		0		0		0		0		0		1		// Skeleton Ring
+	35		13		123		0		0		0		0		0		0		0		1		// Skeleton Pet
+end

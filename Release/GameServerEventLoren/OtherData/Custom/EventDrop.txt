@@ -1,0 +1,36 @@
+0
+//	Enabled
+	1
+end
+
+1
+//	Id	Year	Month	Day	DoW	Hour	Minute	Second
+	0	*	*	*	*	20	0	0
+end
+
+2
+//	Id	Name			Map	X	Y	Range	AlarmTime	EventTime
+	0	"Drop Event"		0	145	135	5	5		3
+end
+
+3
+//	Id	Type	Index	Level	Count	Delay	Comment
+	0	12	15	0	1	0	// Jewel of Chaos
+	0	12	15	0	1	10	// Jewel of Chaos
+	0	12	15	0	1	20	// Jewel of Chaos
+	0	14	13	0	1	30	// Jewel of Bless
+	0	14	13	0	1	40	// Jewel of Bless
+	0	14	13	0	1	50	// Jewel of Bless
+	0	14	14	0	1	60	// Jewel of Soul
+	0	14	14	0	1	70	// Jewel of Soul
+	0	14	14	0	1	80	// Jewel of Soul
+	0	14	16	0	1	90	// Jewel of Life
+	0	14	16	0	1	100	// Jewel of Life
+	0	14	16	0	1	110	// Jewel of Life
+	0	14	11	11	1	120	// Box of Kundun +4
+	0	14	11	11	1	130	// Box of Kundun +4
+	0	14	11	11	1	140	// Box of Kundun +4
+	0	14	11	12	1	150	// Box of Kundun +5
+	0	14	11	12	1	160	// Box of Kundun +5
+	0	14	11	12	1	170	// Box of Kundun +5
+end

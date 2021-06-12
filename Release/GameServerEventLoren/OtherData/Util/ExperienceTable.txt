@@ -1,0 +1,16 @@
+// Arquivo:	ExperienceTable.txt
+// Atualizado:	16:34 10/12/2018
+// Descrição: 	Esse arquivo configura a experiência do servidor de acordo com os requisitos.
+//
+//		- MinLevel 		Level mínimo para aplicar esse nível de experiência;
+//		- MaxLevel 		Level máximo para aplicar esse nível de experiência;
+//		- MinMasterLevel 	MasterLevel máximo para aplicar esse nível de experiência;
+//		- MaxMasterLevel 	MasterLevel máximo para aplicar esse nível de experiência;
+//		- MinReset 		Mínimo de resets para aplicar esse nível de experiência;
+//		- MaxReset 		Máximo de resets para aplicar esse nível de experiência;
+//		- MinMasterReset 	Mínimo de MasterResets para aplicar esse nível de experiência;
+//		- MaxMasterReset 	Máximo de MasterResets para aplicar esse nível de experiência;
+//		- ExperienceRate	Taxa de experiência (%) a ser aplicada, 0~100;
+//
+//	MinLevel	MaxLevel	MinMasterLevel	MaxMasterLevel	MinReset	MaxReset	MinMasterReset	MaxMasterReset	ExperienceRate
+end

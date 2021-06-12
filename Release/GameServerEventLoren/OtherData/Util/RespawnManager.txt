@@ -1,0 +1,11 @@
+// Arquivo:	RespawnManager.txt
+// Atualizado:	10:54 05/04/2019
+// Descrição: 	Esse arquivo configura os locais de respawn, 
+// 		ele vai substituir as configurações padrão do servidor.
+//
+//	- Mapa 		Index do mapa que morre;
+//	- Gate		Index do gate que vai renascer;
+//
+//	Mapa	Gate
+//
+end
