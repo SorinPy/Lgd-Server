@@ -278,7 +278,7 @@ void Player::LoadDBSkill(PreparedQueryResult result)
 				{
 					this->MagicAdd(fields[1].GetUInt16(), fields[2].GetUInt8());
 				}
-				if ( type == 1 ) // TODO: Move code to CheckSkill!
+				if ( type == 1 ) // TODO: maybe not the best place to be!
 				{
 					SkillTree* pSkillTree = sSkillMgr->GetSkillTree(fields[1].GetInt16(), this->GetClass());;
 					if (pSkillTree)
@@ -1660,7 +1660,7 @@ void Player::SaveDBSkill(SQLTransaction& trans)
 		
 		Skill* pSkillTree = this->GetSkillTreeSkill(this->GetSkill(i)->GetSkill());
 		if (pSkillTree)
-			continue;
+			continue; 
 
 		stmt = MuDatabase.GetPreparedStatement(CHARACTER_INSERT_SKILL);
 		stmt->setUInt32(this->GetGUID());
