@@ -68,6 +68,8 @@ class ChatHandler
 
 		void CommandGold(const char * msg);
 
+		void CommandScore(const char* msg); //TODO: fix this
+
 		void CommandTestPacket(const char * msg);
 
 		// Administrator

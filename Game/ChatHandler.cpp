@@ -46,6 +46,7 @@ namespace CommandNormal
 		{	"gold",			&ChatHandler::CommandGold,			AUTHORITY_CODE_NORMAL,			ADMIN_FLAG_NONE,		"", nullptr},
 		{ "errtel", &ChatHandler::CommandErrtel, AUTHORITY_CODE_NORMAL, ADMIN_FLAG_NONE, "/errtel #type #element #r1 #lv1 #r2 #lv2 #r3 #lv3", nullptr },
 
+		//{	"score",			&ChatHandler::CommandScore,			AUTHORITY_CODE_NORMAL,			ADMIN_FLAG_NONE,		"/score <ammount>", nullptr},
 		{	nullptr,		nullptr,							0,								ADMIN_FLAG_NONE,		"",				nullptr}
 	};
 }
@@ -1130,6 +1131,17 @@ void ChatHandler::CommandPKPoints(const char * msg)
 	}
 
 	this->GetPlayer()->SendNotice(CUSTOM_MESSAGE_ID_BLUE, "You have to earn %d points to get out of Outlaw status..", this->GetPlayer()->GetPKPoints());
+}
+
+void ChatHandler::CommandScore(const char* msg)
+{
+	std::stringstream conversor(msg);
+	int32 score = 0;
+	int32 result = 0;
+
+	conversor >> score >> result;
+
+	sEvomon->SendScore(this->GetPlayer(), result, score);
 }
 
 void ChatHandler::CommandGold(const char * msg)
