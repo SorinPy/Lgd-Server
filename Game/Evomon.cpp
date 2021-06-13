@@ -238,11 +238,47 @@ void Evomon::SendScore(Player* pPlayer, uint8 result, int32 score)
 		return;
 	}
 
-	EVOMON_SCORE_DATA pMsg;
-	pMsg.result = result;
-	pMsg.data1 = score;
-	pMsg.data2 = score;
+	struct EVOMON_SCORE_DATA2
+	{
+		EVOMON_SCORE_DATA2()
+		{
+			this->h.set(HEADCODE_EVOMON_SCORE, sizeof(EVOMON_SCORE_DATA2));
+			this->r1 = 0;
+			this->r2 = 0;
+			this->r3 = 0;
+			this->r4 = 0;
+			this->data1 = 0;
+			this->data2 = 0;
+		}
+		PBMSG_HEAD h;
+		//uint32 result;
+		uint8 r1;
+		uint8 r2;
+		uint8 r3;
+		uint8 r4;
+		uint32 data1; //TODO: check this
+		uint32 data2;
+	};
+	EVOMON_SCORE_DATA2 pMsg;
+	pMsg.r1 = result;
+	pMsg.data1 = score & UINT_MAX;
+	pMsg.data2 = UINT_MAX+1;
+	
+	/*
+	struct PMSG_EVOMON_SCORE2
+	{
+		PMSG_EVOMON_SCORE2()
+		{
+			this->h.set(0x3E, 0x11, sizeof(PMSG_EVOMON_SCORE2));
+		}
+		PBMSG_HEAD2 h; // C1:3E:11
+		uint32 wScore;
+	};
+	PMSG_EVOMON_SCORE2 pMsg;
+	//PHeadSubSetB((LPBYTE)&pMsg, 0x3E, 0x11, sizeof(pMsg));
 
+	pMsg.wScore = score;
+	*/
 	pPlayer->SEND_PCT(pMsg);
 }
 
@@ -287,6 +323,8 @@ void Evomon::GiveReward(Player* pPlayer, int32 score)
 			{
 				pMemberPlayer->UpdateStatistic(STATISTIC_EVOMON_SCORE, score);
 
+				this->SendScore(pMemberPlayer, 1, pMemberPlayer->GetStatistic(STATISTIC_EVOMON_SCORE));
+
 				sItemMgr->ItemSerialCreateGremoryCase(pMemberPlayer, Item(ITEMGET(14, 253)), GREMORY_CASE_TYPE_CHARACTER, GremoryCaseReward::EVOMON_REWARD);
 			}
 		}
@@ -294,6 +332,8 @@ void Evomon::GiveReward(Player* pPlayer, int32 score)
 	else
 	{
 		pPlayer->UpdateStatistic(STATISTIC_EVOMON_SCORE, score);
+
+		this->SendScore(pPlayer, 1, pPlayer->GetStatistic(STATISTIC_EVOMON_SCORE));
 
 		for ( int32 h = 0; h < pReward->GetRewardCount(); ++h )
 		{

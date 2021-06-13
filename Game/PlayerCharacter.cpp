@@ -9685,6 +9685,8 @@ void Player::EnterWorldSuccess(uint8 * Packet)
 	sTeleport->SendMonsterInfo(this);
 	this->SendAntiMacro();
 
+	sEvomon->SendScore(this, 1, this->GetStatistic(STATISTIC_EVOMON_SCORE));
+
 	this->GenUpdateLevel();
 
 	this->GetTimer(PLAYER_TIMER_CASH_SHOP_GIFT)->SetTimer(0);

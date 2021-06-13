@@ -1535,6 +1535,28 @@ struct EVOMON_RESULT
 	*/
 };
 
+struct EVOMON_SCORE_DATA2
+{
+	EVOMON_SCORE_DATA2()
+	{
+		this->h.set(HEADCODE_EVOMON_SCORE, sizeof(EVOMON_SCORE_DATA2));
+		this->r1 = 0;
+		this->r2 = 0;
+		this->r3 = 0;
+		this->r4 = 0;
+		this->data1 = 0;
+		this->data2 = 0;
+	}
+	PBMSG_HEAD h;
+	//uint32 result;
+	uint8 r1;
+	uint8 r2;
+	uint8 r3;
+	uint8 r4;
+	uint32 data1; //TODO: check this
+	uint32 data2;
+};
+
 struct EVOMON_SCORE_DATA
 {
 	EVOMON_SCORE_DATA()
@@ -1546,7 +1568,7 @@ struct EVOMON_SCORE_DATA
 	}
 	PBMSG_HEAD h;
 	uint32 result;
-	uint32 data1;
+	uint32 data1; //TODO: check this
 	uint32 data2;
 };
 
