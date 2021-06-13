@@ -225,13 +225,31 @@ void CEventMgr::Update()
 
 			TimeSecRemain = 0;
 
+			auto duration = (*it)->GetDuration();
+			
 			if ((*it)->ConvertToMinutes() > time.getInMinutes())
 			{
-				TimeSecRemain = ((*it)->ConvertToMinutes() - time.getInMinutes()) * MINUTE;
+					TimeSecRemain = ((*it)->ConvertToMinutes() - time.getInMinutes()) * MINUTE;
+					
 			}
 			else if ((*it)->ConvertToMinutes() < time.getInMinutes())
 			{
-				TimeSecRemain = ((24 * MINUTE + (*it)->ConvertToMinutes()) - time.getInMinutes()) * MINUTE;
+				if ((*it)->ConvertToMinutes() > time.getInMinutes() - duration)
+				{
+					if(this->IsEventOn((*it)->GetEventID(),(*it)->GetInvasion()))
+						continue;
+					duration -= (time.getInMinutes()) - ((*it)->ConvertToMinutes());
+					TimeSecRemain = 0;
+					sLog->outInfo(LOG_DEFAULT,
+						"Started past event (id:%d ,Invasion:%d ,Remaining time:%d)",
+						static_cast<int>((*it)->GetEventID()),
+						static_cast<int>((*it)->GetInvasion()),
+						static_cast<int>(duration));
+				}
+				else {
+					TimeSecRemain = ((24 * MINUTE + (*it)->ConvertToMinutes()) - time.getInMinutes()) * MINUTE;
+				}
+				
 			}
 
 			if (TimeSecRemain > (*it)->GetNotifyTime())
@@ -240,7 +258,8 @@ void CEventMgr::Update()
 			if (TimeSecRemain < 0)
 				TimeSecRemain = 0;
 
-			this->Start((*it)->GetEventID(), (*it)->GetDuration(), TimeSecRemain / MINUTE, (*it)->GetInvasion());
+
+			this->Start((*it)->GetEventID(), duration, TimeSecRemain / MINUTE, (*it)->GetInvasion());
 		}
 	}
 
