@@ -61,6 +61,17 @@ void HappyHour::SetState_Playing()
 	this->RunTime(this->GetDuration());
 
 	sObjectMgr->SendEventNotification(NOTICE_GLOBAL, "Happy Hour Started");
+	
+	PlayerSessionMap const& characters = sObjectMgr->GetAllCharacters();
+	for (PlayerSessionMap::const_iterator it = characters.begin(); it != characters.end(); ++it)
+	{
+		Player* pPlayer = it->second;
+
+		if (!pPlayer)
+			continue;
+
+		pPlayer->SendExperienceEvent();
+	}
 
 	sLog->outInfo(LOG_INVASION,"[HappyHour] SetState_Start()");
 }
