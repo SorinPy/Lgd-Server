@@ -6,7 +6,8 @@
 
 Works with boost 1.73
 
-
+# Test server
+I have a dev server at http://sorinvpn112.asuscomm.com/muonline/ for anyone that wanna check it
 
 # Create account
 
